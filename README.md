@@ -5,6 +5,7 @@
 当前已包含：
 
 - `montessori/`：家庭蒙氏实践教练，用于帮助父母理解孩子行为、调整家庭环境、实践观察、独立、秩序、自由与纪律。
+- `picturebook/`：亲子绘本创作导演，用于需求澄清、故事分镜、文案对白、绘本提示词和打印检查。
 
 规划中的方向：
 
@@ -20,6 +21,7 @@
 
 ```text
 $eeailab-montessori
+$eeailab-picturebook
 ```
 
 也可以用自然语言触发：
@@ -28,6 +30,7 @@ $eeailab-montessori
 蒙氏怎么看孩子这个行为？
 家庭蒙氏怎么做？
 孩子不收玩具怎么办？
+用 eeailab-picturebook 帮我做一本孩子收玩具的亲子绘本。
 ```
 
 ## 目录说明
@@ -35,10 +38,16 @@ $eeailab-montessori
 ```text
 eeailab/
 ├── README.md
-└── montessori/
+├── montessori/
+│   ├── SKILL.md
+│   ├── book-digest.md
+│   └── cards/
+└── picturebook/
     ├── SKILL.md
-    ├── book-digest.md
-    └── cards/
+    ├── framework.md
+    ├── cards/
+    ├── templates/
+    └── examples/
 ```
 
 ## 边界
