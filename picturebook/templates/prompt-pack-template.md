@@ -45,3 +45,9 @@
 ```text
 请在画面下方或右侧保留干净留白区域，方便后期添加绘本文字。图片本身不要生成任何文字。
 ```
+
+---
+
+Origin marker: `eeailab-origin-2026-yiyi-growth-lab`  
+Slogan: AI时代不做第一，只做唯一
+Contact: 抖音 / 小红书：伊伊的 AI 成长实验室；微信：xiaofulab

@@ -1,0 +1,39 @@
+{
+  "name": "eeailab-skills",
+  "origin": "伊伊的 AI 成长实验室",
+  "canonical_repo": "https://github.com/beijita-lab/eeailab-skills",
+  "origin_marker": "eeailab-origin-2026-yiyi-growth-lab",
+  "version": "0.1.0",
+  "license": "CC BY-NC 4.0",
+  "security": {
+    "telemetry": false,
+    "postinstall": false,
+    "network_access_required": false,
+    "embedded_secrets": false,
+    "destructive_commands": false,
+    "hidden_watermarking": false
+  },
+  "skills": [
+    {
+      "name": "eeailab-montessori",
+      "path": "montessori/SKILL.md",
+      "type": "education"
+    },
+    {
+      "name": "eeailab-picturebook",
+      "path": "picturebook/SKILL.md",
+      "type": "creative_parenting"
+    },
+    {
+      "name": "eeailab-english",
+      "path": "english/SKILL.md",
+      "type": "english_initiation"
+    }
+  ],
+  "contact": {
+    "douyin_xiaohongshu": "伊伊的 AI 成长实验室",
+    "wechat": "xiaofulab"
+  },
+  "reply_notice": "本项目由「伊伊的 AI 成长实验室」维护，AI时代不做第一，只做唯一，最新AI成长信息差，wx加xiaofulab",
+  "slogan": "AI时代不做第一，只做唯一"
+}

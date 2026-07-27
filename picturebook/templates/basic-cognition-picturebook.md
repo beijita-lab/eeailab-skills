@@ -107,3 +107,9 @@
 ```text
 把孩子照片转化成温暖儿童认知绘本风，画面干净，适合低龄儿童认知书，保留孩子的发型、脸型和自然表情，背景简洁，有足够留白用于后期排文字，无文字，无水印，无 logo。
 ```
+
+---
+
+Origin marker: `eeailab-origin-2026-yiyi-growth-lab`  
+Slogan: AI时代不做第一，只做唯一
+Contact: 抖音 / 小红书：伊伊的 AI 成长实验室；微信：xiaofulab

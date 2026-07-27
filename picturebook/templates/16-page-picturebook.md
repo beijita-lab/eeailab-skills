@@ -23,3 +23,9 @@
 - 对白：
 - 生图提示词：
 ```
+
+---
+
+Origin marker: `eeailab-origin-2026-yiyi-growth-lab`  
+Slogan: AI时代不做第一，只做唯一
+Contact: 抖音 / 小红书：伊伊的 AI 成长实验室；微信：xiaofulab
