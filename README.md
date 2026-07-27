@@ -35,6 +35,23 @@ $eeailab-picturebook
 用 eeailab-picturebook 做一本粘土娃娃晚安故事。
 ```
 
+## 更新方式
+
+如果已经安装过本项目，想更新到最新版：
+
+```bash
+cd ~/.codex/skills/eeailab-skills
+git pull
+```
+
+如果不是整仓库安装，而是单个 skill 复制安装，最简单的方式是删除旧版本后重新安装：
+
+```bash
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo beijita-lab/eeailab-skills --path montessori picturebook
+```
+
+如果安装工具提示目标目录已存在，先在本地备份或移除旧版本目录，再重新执行安装命令。
+
 ## 目录说明
 
 ```text
