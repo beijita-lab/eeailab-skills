@@ -6,10 +6,10 @@
 
 - `montessori/`：家庭蒙氏实践教练，用于帮助父母理解孩子行为、调整家庭环境、实践观察、独立、秩序、自由与纪律。
 - `picturebook/`：亲子绘本创作导演，用于模板类 / 原创类分流、认知书、粘土娃娃晚安故事、故事分镜、文案对白、绘本提示词和打印检查。
-- `english/`：家庭英语启蒙规划与管理教练，用于起点诊断、1-3 个月规划、每日管理小复盘、周复盘、月度趋势报告和执行纠偏。
 
 规划中的方向：
 
+- `english/`：家庭英语启蒙规划与管理教练；
 - `blueprint/`：AI 时代通才成长蓝图；
 - `ai-literacy/`：儿童与父母的 AI 综合能力；
 - `money-literacy/`：儿童财商与价值理解；
@@ -22,7 +22,6 @@
 ```text
 $eeailab-montessori
 $eeailab-picturebook
-$eeailab-english
 ```
 
 也可以用自然语言触发：
@@ -34,8 +33,6 @@ $eeailab-english
 用 eeailab-picturebook 帮我做一本孩子收玩具的亲子绘本。
 用 eeailab-picturebook 做一本孩子本人身体认知书。
 用 eeailab-picturebook 做一本粘土娃娃晚安故事。
-用 eeailab-english 给 5 岁零基础孩子做英语启蒙规划。
-用 eeailab-english 看一下今天的英语启蒙打卡有没有跑偏。
 ```
 
 ## 目录说明
@@ -47,16 +44,12 @@ eeailab/
 │   ├── SKILL.md
 │   ├── book-digest.md
 │   └── cards/
-├── picturebook/
-│   ├── SKILL.md
-│   ├── framework.md
-│   ├── cards/
-│   ├── templates/
-│   └── examples/
-└── english/
+└── picturebook/
     ├── SKILL.md
-    ├── references/
-    └── templates/
+    ├── framework.md
+    ├── cards/
+    ├── templates/
+    └── examples/
 ```
 
 ## 来源与引用
