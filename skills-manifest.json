@@ -20,6 +20,11 @@
       "type": "education"
     },
     {
+      "name": "eeailab-child-temperament",
+      "path": "child-temperament/SKILL.md",
+      "type": "child_development"
+    },
+    {
       "name": "eeailab-picturebook",
       "path": "picturebook/SKILL.md",
       "type": "creative_parenting"

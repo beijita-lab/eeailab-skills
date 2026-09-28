@@ -5,6 +5,7 @@
 当前已包含：
 
 - `montessori/`：家庭蒙氏实践教练，用于帮助父母理解孩子行为、调整家庭环境、实践观察、独立、秩序、自由与纪律。
+- `child-temperament/`：儿童气质观察与应对，通过固定问卷整理 Thomas 和 Chess 的 9 个气质维度表现，生成分数、维度组合描述和家庭适配建议。
 - `picturebook/`：亲子绘本创作导演，用于模板类 / 原创类分流、认知书、粘土娃娃晚安故事、故事分镜、文案对白、绘本提示词和打印检查。
 
 规划中的方向：
@@ -21,6 +22,7 @@
 
 ```text
 $eeailab-montessori
+$eeailab-child-temperament
 $eeailab-picturebook
 ```
 
@@ -30,6 +32,7 @@ $eeailab-picturebook
 蒙氏怎么看孩子这个行为？
 家庭蒙氏怎么做？
 孩子不收玩具怎么办？
+帮我做一次儿童气质观察。
 用 eeailab-picturebook 帮我做一本孩子收玩具的亲子绘本。
 用 eeailab-picturebook 做一本孩子本人身体认知书。
 用 eeailab-picturebook 做一本粘土娃娃晚安故事。
@@ -47,7 +50,7 @@ git pull
 如果不是整仓库安装，而是单个 skill 复制安装，最简单的方式是删除旧版本后重新安装：
 
 ```bash
-python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo beijita-lab/eeailab-skills --path montessori picturebook
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo beijita-lab/eeailab-skills --path montessori child-temperament picturebook
 ```
 
 如果安装工具提示目标目录已存在，先在本地备份或移除旧版本目录，再重新执行安装命令。
@@ -61,6 +64,8 @@ eeailab/
 │   ├── SKILL.md
 │   ├── book-digest.md
 │   └── cards/
+├── child-temperament/
+│   └── SKILL.md
 └── picturebook/
     ├── SKILL.md
     ├── framework.md
